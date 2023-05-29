@@ -1,0 +1,146 @@
+/* *{
+    border: solid black;
+} */
+body{
+    margin: 0;
+    font-family: 'IBM Plex Sans Condensed';
+}
+.body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    margin-top: -0.2em;
+    padding-left: 228.8px;
+    padding-right: 228.8px;
+    justify-content: center;
+}
+.top{
+    padding-left: 228.8px;
+    padding-right: 228.8px;    
+    background-color: rgb(255, 252, 252);
+}
+.header{
+    display: flex;
+    padding: 0em;
+    margin: 0;
+    height: 80px;
+    justify-content: space-between;
+    vertical-align: middle;
+    box-shadow: 20px;
+}
+.logo{
+    margin:0;
+    margin-top: 0.45em;
+    padding: 0em;
+    justify-content: flex-start;
+}
+.logo img{
+    height: 70px;
+    width: 120px;
+}
+.heading{
+    justify-content: center;
+    vertical-align: middle;
+    height: 70px;
+    margin: 0px;
+    margin-top: 0.14em;
+    padding: 0em;
+    font-size: 27px;
+    font-family: 'Roboto Mono';
+    word-spacing: -0.3em;
+    font-weight: 900;
+    letter-spacing: -3.9px;
+}
+.heading h1{
+    margin: 0px;
+}
+
+.anchor img{
+    margin:0;
+    margin-top: 0.45em;
+    padding: 0em;
+    justify-content: flex-end;
+    height: 77.5px;
+    width: 120px;
+}
+hr{
+    border:none;
+    height: 55px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -22px #333;
+    margin: -50px auto 10px; 
+}
+.content{
+    padding-top: 0.5em;
+    font-size: 17px;
+    padding-bottom: 0;
+    margin: 0;
+}
+.content h1{
+    margin-bottom: 0.3em;
+    font-size: 42px;
+    font-family: 'Source Sans Pro';
+}
+.content p{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    line-height: 27px;
+    margin-bottom: 3px;
+}
+
+
+textarea {
+    width: 95%;
+    padding: 12px 20px;
+    height: 230px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 20px;
+    resize: none;
+    line-height: 190px;
+    text-align: center;
+    margin: 0;
+}
+#txt{
+    display: flex;
+}
+.micro{
+    margin: 25px;
+    margin-top: 85px;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+button{
+    border: 0;
+}
+
+/*Footer*/
+.footer{
+    margin: 0;
+    padding-left: 228.8px;
+    padding-right: 228.8px;
+    font-size: 10.2px;
+    font-weight: 0;
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.footer h1{
+    padding: 5px;
+    margin: 0;
+    padding-top: 1.1em;
+    padding-bottom: 0.1em;
+}
+.footer h2{
+    font-size: 19px;
+    padding: 5px;
+    margin: 0;
+    padding-bottom: 1.3em;
+}
